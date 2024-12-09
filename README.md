@@ -1,4 +1,5 @@
 # Robotix Club 2024 Website [BLOG]
+
 Welcome to the Robotix Club 2024 Website project! Follow the steps below to set up and run the application locally.
 
 ## Getting Started
