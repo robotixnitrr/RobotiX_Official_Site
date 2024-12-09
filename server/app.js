@@ -6,7 +6,7 @@ const passport = require('passport');
 const session = require('express-session');
 const cors = require('cors');
 let dotenv = require("dotenv").config();
-const contactRoute = require('./contact');
+
 const app = express();
 
 // Import routes
@@ -26,14 +26,6 @@ app.use(session({
   resave: false,
   saveUninitialized: true
 }));
-
-// ContactUs Page
-app.use(express.json());
-app.use('/api', contactRoute);
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
 
 app.use(passport.initialize());
 app.use(passport.session());
