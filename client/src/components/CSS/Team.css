@@ -61,7 +61,7 @@
 .teamImg1 {
     position: relative;
     height: 256px;
-    
+    /* object-fit: inherit; */
 }
 
 .teamText1 {

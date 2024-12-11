@@ -1,6 +1,58 @@
 import React from 'react'
 import "../components/CSS/Team.css";
 import img1 from "../assets/team/img1.jpeg";
+
+// import oc1 from "../assets/team/oc1.jpg";
+import oc2 from "../assets/team/oc2.jpg";
+
+import hc1 from "../assets/team/hc1.jpg";
+import hc2 from "../assets/team/hc2.jpg";
+import hc3 from "../assets/team/hc3.jpg";
+import hc4 from "../assets/team/hc4.jpg";
+import hc5 from "../assets/team/hc5.jpg";
+import hc6 from "../assets/team/hc6.jpg";
+import hc7 from "../assets/team/hc7.jpg";
+import hc8 from "../assets/team/hc8.jpg";
+
+import cc1 from "../assets/team/cc1.jpg"
+import cc2 from "../assets/team/cc2.jpg"
+import cc3 from "../assets/team/cc3.jpg"
+import cc4 from "../assets/team/cc4.jpg"
+import cc5 from "../assets/team/cc5.jpg"
+import cc6 from "../assets/team/cc6.jpg"
+import cc7 from "../assets/team/cc7.jpg"
+import cc8 from "../assets/team/cc8.jpg"
+import cc9 from "../assets/team/cc9.jpg"
+import cc10 from "../assets/team/cc10.jpg"
+import cc11 from "../assets/team/cc11.jpg"
+import cc12 from "../assets/team/cc12.jpg"
+import cc13 from "../assets/team/cc13.jpg"
+import cc14 from "../assets/team/cc14.jpg"
+import cc15 from "../assets/team/cc15.jpg"
+import cc16 from "../assets/team/cc16.jpg"
+import cc17 from "../assets/team/cc17.jpg"
+import cc18 from "../assets/team/cc18.jpg"
+import cc19 from "../assets/team/cc19.jpg"
+import cc20 from "../assets/team/cc20.jpg"
+import cc21 from "../assets/team/cc21.jpg"
+import cc22 from "../assets/team/cc22.jpg"
+import cc23 from "../assets/team/cc23.jpg"
+import cc24 from "../assets/team/cc24.jpg"
+import cc25 from "../assets/team/cc25.jpg"
+import cc26 from "../assets/team/cc26.jpg"
+import cc27 from "../assets/team/cc27.jpg"
+import cc28 from "../assets/team/cc28.jpg"
+import cc29 from "../assets/team/cc29.jpg"
+import cc30 from "../assets/team/cc30.jpg"
+// import cc31 from "../assets/team/cc31.jpg"
+import cc32 from "../assets/team/cc32.jpg"
+import cc33 from "../assets/team/cc33.jpg"
+import cc34 from "../assets/team/cc34.jpg"
+import cc35 from "../assets/team/cc35.jpg"
+// import cc36 from "../assets/team/cc36.jpg"
+import cc37 from "../assets/team/cc37.jpg"
+
+
 const Team = () => {
   return (
     <div>
@@ -32,7 +84,7 @@ const Team = () => {
             </div>
             <div className="teamItem1">
               <div className="teamImg1">
-                <img src={img1} alt="" />
+                <img src={oc2} alt="" />
               </div>
               <div className="teamText1">
               <h2>Anjali Rege</h2>
@@ -59,7 +111,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                  <img src={img1} alt="" />
+                  <img src={hc1} alt="" />
               </div>
               <div className="teamText2">
                 <h2>Harsh Jangir</h2>
@@ -75,7 +127,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                <img src={img1} alt="" />
+                <img src={hc2} alt="" />
               </div>
               <div className="teamText2">
               <h2>Ayush Damor</h2>
@@ -91,7 +143,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                  <img src={img1} alt="" />
+                  <img src={hc3} alt="" />
               </div>
               <div className="teamText2">
                 <h2>Aman Dhananjay</h2>
@@ -107,7 +159,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                  <img src={img1} alt="" />
+                  <img src={hc4} alt="" />
               </div>
               <div className="teamText2">
                 <h2>Rashmiprakash</h2>
@@ -123,7 +175,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                  <img src={img1} alt="" />
+                  <img src={hc5} alt="" />
               </div>
               <div className="teamText2">
                 <h2>S Sathvik</h2>
@@ -139,7 +191,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                  <img src={img1} alt="" />
+                  <img src={hc6} alt="" />
               </div>
               <div className="teamText2">
                 <h2>Archisha De</h2>
@@ -155,7 +207,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                  <img src={img1} alt="" />
+                  <img src={hc7} alt="" />
               </div>
               <div className="teamText2">
                 <h2>R Keerthi</h2>
@@ -171,7 +223,7 @@ const Team = () => {
 
             <div className="teamItem2">
               <div className="teamImg2">
-                  <img src={img1} alt="" />
+                  <img src={hc8} alt="" />
               </div>
               <div className="teamText2">
                 <h2>Piyush Kumar</h2>
@@ -201,7 +253,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc1} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Priyanshu Kumar</h2>
@@ -217,7 +269,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc2} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Ajay Kashyap</h2>
@@ -233,7 +285,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc3} alt="" />
               </div>
               <div className="teamText1">
                 <h2>D Sailaja</h2>
@@ -249,7 +301,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc4} alt="" />
               </div>
               <div className="teamText1">
                 <h2>D Chakradhar</h2>
@@ -265,7 +317,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc5} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Murtaza Narwarwala</h2>
@@ -281,7 +333,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                <img src={img1} alt="" />
+                <img src={cc6} alt="" />
               </div>
               <div className="teamText1">
               <h2>Prakhar</h2>
@@ -298,7 +350,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc7} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Umakhant</h2>
@@ -315,7 +367,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc8} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Chirag</h2>
@@ -332,7 +384,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc9} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Ramnarayan</h2>
@@ -349,7 +401,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc10} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Mohammad Raza Memon</h2>
@@ -365,7 +417,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc11} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Vishal Kumar Singh</h2>
@@ -381,7 +433,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc12} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Aman Singh Thakur</h2>
@@ -397,7 +449,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc13} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Anay Tondar</h2>
@@ -413,7 +465,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc14} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Tushar Dhruw</h2>
@@ -429,7 +481,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc15} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Ayush Mishra</h2>
@@ -445,7 +497,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc16} alt="" />
               </div>
               <div className="teamText1">
                 <h2>P Hemanth</h2>
@@ -461,7 +513,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc17} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Thrushank Naidu</h2>
@@ -477,7 +529,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc18} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Saiyam Choubey</h2>
@@ -495,7 +547,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc19} alt="" />
               </div>
               <div className="teamText1">
                 <h2>S Chidvilas</h2>
@@ -511,7 +563,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc20} alt="" />
               </div>
               <div className="teamText1">
                 <h2>S Yashasri</h2>
@@ -527,7 +579,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc21} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Vaishnavi Padole</h2>
@@ -543,7 +595,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc22} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Rahul Kumar</h2>
@@ -559,7 +611,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc23} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Abhiskek Kumar</h2>
@@ -575,7 +627,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc24} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Aashish Shukla</h2>
@@ -591,7 +643,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc25} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Abhishek Mishra</h2>
@@ -607,7 +659,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc26} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Aditya Kumar</h2>
@@ -623,7 +675,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc27} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Leevant Rathor</h2>
@@ -639,7 +691,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc28} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Chirag Garg</h2>
@@ -655,7 +707,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc29} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Diptesh Raj</h2>
@@ -671,7 +723,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc30} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Jayant Rajput</h2>
@@ -703,7 +755,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc32} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Umed Kumar</h2>
@@ -719,7 +771,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc33} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Mohammad</h2>
@@ -736,7 +788,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc34} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Thaljai Pratap Dewangan</h2>
@@ -752,7 +804,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc35} alt="" />
               </div>
               <div className="teamText1">
                 <h2>S S Venkata Rajarao</h2>
@@ -784,7 +836,7 @@ const Team = () => {
 
             <div className="teamItem1">
               <div className="teamImg1">
-                  <img src={img1} alt="" />
+                  <img src={cc37} alt="" />
               </div>
               <div className="teamText1">
                 <h2>Shivam Mishra</h2>
