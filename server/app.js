@@ -14,6 +14,7 @@ const authRoutes = require('./routes/authRoutes');
 const userRoutes = require('./routes/userRoutes');
 const postRoutes = require('./routes/postRoutes');
 const commentRoutes = require('./routes/commentRoutes');
+const workshopRegRoutes = require('./routes/workshopRegRoutes') 
 
 // Middleware
 app.use(cors());
@@ -35,6 +36,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/post', postRoutes);
 app.use('/api/comment', commentRoutes);
+app.use('/api/reg', workshopRegRoutes);
 // app.use('/api/search', searchRoutes);
 
 // Serve index.html on root
