@@ -14,6 +14,15 @@ const authRoutes = require('./routes/authRoutes');
 const userRoutes = require('./routes/userRoutes');
 const postRoutes = require('./routes/postRoutes');
 const commentRoutes = require('./routes/commentRoutes');
+const contactRoute = require('./contact');
+
+// ContactUs Page
+app.use(express.json());
+app.use('/api', contactRoute);
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 
 // Middleware
 app.use(cors());
